@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result.next_activity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Property ID"
+                android:id="@+id/pi"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PropertyID"
+                android:id="@+id/tv1"
+                android:layout_alignParentEnd="true"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Property Location"
+                android:id="@+id/pl"
+                android:layout_below="@id/pi"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Property Location"
+                android:id="@+id/tv2"
+                android:layout_below="@id/pi"
+                android:layout_marginTop="3dp"
+                android:layout_alignParentEnd="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pn"
+                android:layout_below="@id/pl"
+                android:text="Property Name"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Property Name"
+                android:id="@+id/tv3"
+                android:layout_below="@id/pl"
+                android:layout_marginTop="3dp"
+                android:layout_alignParentEnd="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rooms Count"
+                android:id="@+id/rc"
+                android:layout_below="@id/pn"
+                android:layout_marginTop="3dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rooms Count"
+                android:id="@+id/tv4"
+                android:layout_below="@id/tv3"
+                android:layout_marginTop="3dp"
+                android:layout_alignParentEnd="true"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Created By"
+                android:id="@+id/cb"
+                android:layout_below="@id/rc"
+                android:layout_marginTop="3dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CreatedBy"
+                android:id="@+id/tv6"
+                android:layout_below="@id/rc"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="3dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CreatedOn"
+                android:id="@+id/tvco"
+                android:layout_below="@id/cb"
+                android:layout_marginTop="3dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CreatedOn"
+                android:id="@+id/tv7"
+                android:layout_below="@id/tv6"
+                android:layout_marginTop="3dp"
+                android:layout_alignParentEnd="true"
+                />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
